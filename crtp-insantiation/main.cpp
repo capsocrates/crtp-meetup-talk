@@ -1,7 +1,7 @@
 #include "some_derived.h"
 #include <cstdio>
 
-auto main(const int /*argc*/, const char *const /*argv*/) -> int
+auto main(const int /*argc*/, const char *const []/*argv*/) -> int
 {
   auto d{ some_derived{} };
   d.baz();

@@ -1,7 +1,7 @@
 #include "template.h"
 #include <cstdio>
 
-auto main(const int /*argc*/, const char *const /*argv*/) -> int
+auto main(const int /*argc*/, const char *const []/*argv*/) -> int
 {
   auto tc{ template_class<int>{} };
 
