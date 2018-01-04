@@ -1,6 +1,3 @@
+cmake_minimum_required(VERSION 3.2)
 
-template <class Vehicle>
-void drive(Vehicle const& v)
-{
-  
-}
+add_executable(concept-enforcement main.cpp)
